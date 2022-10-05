@@ -7,87 +7,78 @@
     <title>BLUEBOTTLE</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./bluebottle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <div class="container">
-                <div class="util_menu">
-                    <ul>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Customer Service</a></li>
-                        <li><a href="#">Business Contact</a></li>
-                    </ul>
-                </div>
-                <div class="logo">
-                    <h1><a href="#"><img src="./image/Blue bottle logo.png" alt="logo"></a></h1>
-                </div>
-            </div> <!-- container end-->
-            <nav class="main-menu">
+            <div class="backgroundbox">
                 <div class="container">
-                    <ul class="gnb">
-                        <li><a href="#">COFFEE</a></li>
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">THE BLUE BOTTLE</a></li>
-                        <li><a href="#">STORE</a></li>
-                        <li><a href="#">NEWS</a></li>
-                    </ul>
-                    <div class="search_btn">
-                        <a href="#"><img src="./image/SEARCH BUTTON.png" alt="search"></a>
+                    <div class="util_menu">
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Location</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Business Contact</a></li>
+                        </ul>
                     </div>
                 </div> <!-- container end-->
-            </nav>
+            </div> <!-- backgroundbox end-->
+                <div class="container">
+                    <div class="menu_logo_flexbox">
+                        <div class="logo">
+                            <h1><a href="#"><img src="./image/Blue bottle logo.png" alt="logo"></a></h1>
+                        </div>
+                        <nav class="main-menu">
+                            <ul class="gnb">
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">MENU</a></li>
+                                <li><a href="#">THE BLUE BOTTLE</a></li>
+                                <li><a href="#">STORE</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </nav>
+                        <div class="search_btn">
+                            <a href="#"><img src="./image/SEARCH BUTTON.png" alt="search"></a>
+                        </div>
+                    </div> <!-- menu_logo_flexbox end -->   
+                </div> <!-- container end-->
         </header>
 
         <main>
-            <article class="main-img1">
+            <article class="slide">
                 <h2>main image</h2>
-                <strong>SUMMER CHILL OUT</strong>
-                <p>뜨거운 여름, 오감을<br>
-                    일깨우는 청량한 한잔의<br>
-                    '아이스 블렌드' 커피로<br>
-                    안락한 휴식을 즐겨보세요.</p>
-                <p>NEW PASTRY<br>
-                피스타치오 살구 스콘<br>
-                PISTACHIO APRICOT SCONE</p>
-                <img src="./image/피스타치오 살구 스콘 with 그림자.png" alt="scone">
-                <p>SEASONAL LIMITED<br>
-                    패션프루츠 피즈<br>
-                    PASSION FRUIT FIZZ</p>
-                <img src="./image/패션프루츠 피즈 with 그림자.png" alt="fizz">
-            </article> <!-- main-img1 end-->
-            <article class="main-img2">
-                <h2>main image</h2>
-                <strong>REFRESHED:<br>EAT HEALTHY</strong>
-                <p>#서울뷰티트래블위크<br>
-                    ‘블루보틀 삼청카페’에서는 9월30일부터 10월 5일까지<br>
-                    솔 라임 피즈와 글루텐 프리 마들렌을 맛보실 수있습니다.</p>
-                <img src="./image/쿨라임피지오.png" alt="lime_fizz">
-                <img src="./image/마들렌.png" alt="madeleine">
-            </article> <!-- main-img2 end-->
-            <article class="main-img3">
-                <h2>main image</h2>
-                <strong>BLUE BOTTLE X<br>JEJU BEER COMPANY</strong>
-                <p>#SPECIALTY BEER<br>
-                    블루보틀의 [쓰리 아프리카스] 블렌드를 주 원재료로<br>
-                    만든 ‘커피 골든에일’을 서울 7개의 블루보틀 카페와<br>
-                    제주 카페 옆에 위치한  제주 맥주 코너샵, 제주 맥주<br>
-                    양조장에서 만나보실 수 있습니다.</p>
-                <img src="./image/맥주병.png" alt="beer_bottle">
-                <img src="./image/맥주잔.png" alt="beer_cup">
-            </article> <!-- main-img3 end-->
-            <article class="main-img4">
-                <h2>main image</h2>
-                <strong>NEW STORE<br>OPEN</strong>
-                <p>[블루보틀 제주 카페]<br>
-                    주소 : 제주특별자치도 제주시 구좌읍 번영로 2133-30<br>
-                    영업시간 : 오전 9시 - 오후 7시</p>
-                <img src="./image/제주푸딩.png" alt="pudding">
-                <p>JEJU ONLY<br>
-                    우무 푸딩<br>
-                    COFFEE PUDDING</p>
-            </article> <!-- main-img4 end-->
+                <ul>
+                    <li class="main-img1">
+                        <strong>SUMMER<br>CHILL OUT</strong>
+                        <p>뜨거운 여름, 오감을<br>
+                            일깨우는 청량한 한잔의<br>
+                            '아이스 블렌드' 커피로<br>
+                            안락한 휴식을 즐겨보세요.</p>
+                    </li>
+                    <li class="main-img2">
+                        <strong>REFRESHED:<br>EAT HEALTHY</strong>
+                        <p>#서울뷰티트래블위크<br>
+                            ‘블루보틀 삼청카페’에서는 9월30일부터 10월 5일까지<br>
+                            솔 라임 피즈와 글루텐 프리 마들렌을 맛보실 수있습니다.</p>
+                    </li>
+                    <li class="main-img3">
+                        <strong>BLUE BOTTLE X<br>JEJU BEER COMPANY</strong>
+                        <p>#SPECIALTY BEER<br>
+                            블루보틀의 [쓰리 아프리카스] 블렌드를 주 원재료로<br>
+                            만든 ‘커피 골든에일’을 서울 7개의 블루보틀 카페와<br>
+                            제주 카페 옆에 위치한  제주 맥주 코너샵, 제주 맥주<br>
+                            양조장에서 만나보실 수 있습니다.</p>
+                    </li>
+                    <li class="main-img4">
+                        <strong>NEW STORE<br>OPEN</strong>
+                        <p>[블루보틀 제주 카페]<br>
+                            주소 : 제주특별자치도 제주시 구좌읍 번영로 2133-30<br>
+                            영업시간 : 오전 9시 - 오후 7시</p>
+                    </li>
+                </ul>
+            </article> <!-- slide end-->
 
             <section class="truck">
                 <h2>Truck</h2>
@@ -235,8 +226,19 @@
                         </ul>
                     </nav>
 
-                    <div class="copyright">
-                        
+                    <div class="security">
+                        <ul>
+                            <li><a href="#">홈페이지 이용약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">영상정보처리기기 운영방침</a></li>
+                            <li><a href="#">위치기반서비스 이용약관</a></li>
+                            <li><a href="#">운영경영 핫라인</a></li>
+                        </ul>
+                    </div>
+                    <div class="info_detail">
+                        <p>블루보틀 커피 코리아(유) 대표이사 : 칼윌리암스트로빈크</p>
+                        <span>사업자등록번호 : 201-82-08249</span>
+                        <p class="copyright">ⓒ 2022 BLUE BOTTLE COFFEE INC., All Rights Reserved.</p>
                     </div>
                 </div> <!-- container end-->
             </div> <!-- footer_wrap end-->
