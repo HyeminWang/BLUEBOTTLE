@@ -8,7 +8,7 @@
 
 html,
 body {
-    font-family: '맑은 고딕';
+    font-family: 'Noto Sans KR', sans-serif;
     color: #333;
 }
 
@@ -40,11 +40,15 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
+    color: #03254c;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
 }
 
 h4 {
     font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 p {

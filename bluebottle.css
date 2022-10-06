@@ -4,7 +4,6 @@
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
     background-color: antiquewhite;
 }
 
@@ -17,7 +16,7 @@
 header {
     width: 100%;
     height: 200px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .backgroundbox {
@@ -92,11 +91,30 @@ header {
 
 /* ========== main ========== */
 
+
 /* article */
-.main-img1 {
-    background: url(./image/main_img1.png) no-repeat;
+.slide {
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 602px;
+}
+
+.slide ul {
+    display: flex;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+.slide li {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.main-img1 {
+    background: url(./image/main_img1.png) no-repeat center;
+    width: 100%;
 }
 
 .slide strong,
@@ -128,8 +146,221 @@ header {
     height: 602px;
 }
 
+.beer_emphasize {
+    color: #3715e4;
+}
+
 .main-img4 {
     background: url(./image/main_img4.png) no-repeat;
     width: 100%;
     height: 602px;
 }
+
+
+/* truck */
+.truck {
+    margin: 126px 0;
+}
+
+.truck h3 {
+    margin-bottom: 75px;
+}
+
+.video {
+    width: 802px;
+    height: 400px;
+}
+
+.truck_flexbox {
+    display: flex
+}
+
+.truck_textbox {
+    margin: -2px 0 63px 44px;
+    /* background-color: coral; */
+}
+
+.truck_textbox strong {
+    font-size: 28px;
+}
+
+.truck_textbox p {
+    margin-bottom: 52px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+button {
+    display: inline-block;
+    background: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+    padding: 14px 33px;
+}
+
+button:hover {
+    background-color: #e1e1e1;
+    opacity: 0.7;
+}
+
+button a {
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* merchandise */
+
+.merchandise_list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.merchandise_list .span_box1 {
+    position: absolute;
+    top:71px; left: 129px;
+}
+
+.merchandise_list .span_box2 {
+    position: absolute;
+    top:71px; left: 330px;
+}
+
+.merchandise_list .span_box3 {
+    position: absolute;
+    top:71px; left: 529px;
+}
+
+.merchandise_list .span_box4 {
+    position: absolute;
+    top:71px; left: 747px;
+}
+
+.merchandise_list .span_box5 {
+    position: absolute;
+    top:71px; left: 965px;
+}
+
+.merchandise h4 {
+    text-align: center;
+}
+
+.merchandise span {
+    display: none;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 16px;
+    color: #03254c;
+}
+
+.merchandise_list a:hover {
+    background: #00c0f0;
+    opacity: 0.4;
+}
+
+
+/* coffee_bean */
+.shop_text {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.shop_text a {
+    color: #03254c;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* merchandise & coffee_bean 공통부분 */
+
+.coffee_bean {
+    margin-top: 158px;
+}
+
+.bean_variety {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    grid-gap: 0 32px;
+}
+
+.bean_variety .bean_area:hover{
+    opacity: 0.2;
+}
+
+.bean_variety .img_box {
+    width: 584px;
+    height: 249px;
+}
+
+.img_box img {
+    width: 50%;
+    height: 100%;
+}
+
+.bean_variety div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bean_variety span {
+    display: none;
+}
+
+.bean_variety p {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+    text-align: center;
+}
+
+
+/* introduce_store */
+.introduce_store {
+    margin-top: 155px;
+    margin-bottom: 75px;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.samcheong_textbox {
+    margin-left: 40px;
+}
+
+.samcheong_textbox h3 {
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: left;
+    margin: 78px 0;
+}
+
+.samcheong_textbox p {
+    font-size: 20px;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 79px 24px;
+}
+
+.icon_box p {
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+
+/* ========== footer ========== */
+footer {
+    width: 100%;
+    height: 351px;
+}
+
+.footer_background {
+    background-color: #00c0f0;
+}
+
